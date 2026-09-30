@@ -1,0 +1,7 @@
+build/
+*.o
+*.cgi
+*.exe
+.DS_Store
+._*
+.vscode/

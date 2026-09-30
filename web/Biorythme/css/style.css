@@ -1,0 +1,62 @@
+body {
+	font-size: 12pt;
+	background-color: black;
+   	font-family: Avenir, Courier;
+   	color: white;
+}
+
+.boutonNormal, .boutonLarge {
+	background: white;
+	border: 1px;
+	border-radius: 10px;
+	margin: 10px 10px 10px 10px;
+}
+
+.boutonNormal {
+	width: 150px;
+	height: 30px;
+}
+
+.boutonLarge {
+	width: 300px;
+	height: 30px;
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boutonNormal:hover, .boutonLarge:hover {
+	background: #2683ee;
+}
+
+.boutonNormal[disabled]:hover, boutonLarge[disabled]:hover {
+	background: red;
+}
+
+.centreVertical {
+  margin-top: 50vh;            /* poussé de la moitié de hauteur de viewport */
+  transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+}
+
+.ligne {
+	display: flex;
+}
+
+.libelle {
+	width: 200px;
+	text-align: left;
+}
+
+.contenu {
+	text-align: left;
+}
+
+.erreur {
+	margin-left: 12px;
+	color: red;
+}
+
+#jour, #mois, #an {
+	padding: 5px;
+	text-align: center;
+}
